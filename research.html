@@ -3,121 +3,193 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>B. Elam Rodríguez-Alcaraz — Research</title>
-  <meta name="description" content="Publications, working papers, data and code.">
-  <link rel="canonical" href="https://belamrodriguezalcaraz.github.io//research.html">
-  <meta name="theme-color" content="#0b57d0">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="B. Elam Rodríguez-Alcaraz">
-  <meta property="og:title" content="B. Elam Rodríguez-Alcaraz — Research">
-  <meta property="og:description" content="Publications, working papers, data and code.">
-  <meta property="og:url" content="https://belamrodriguezalcaraz.github.io//research.html">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="B. Elam Rodríguez-Alcaraz — Research">
-  <meta name="twitter:description" content="Publications, working papers, data and code.">
+  <title>Elam Alcaraz — Research</title>
+  <meta name="description" content="Publications, working papers, research assistance, data and code.">
+  <link rel="canonical" href="https://belamrodriguezalcaraz.github.io/research.html">
   <link rel="stylesheet" href="/style.css">
-  <link rel="me" href="https://belamrodriguezalcaraz.github.io//research.html">
-  <link rel="me" href="https://www.linkedin.com/in/YOURHANDLE/">
-  <link rel="me" href="https://twitter.com/YOURHANDLE">
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+
+  <!-- Overrides specific to this page -->
+  <style>
+    .coauthors a{color:#0b57d0; text-decoration:underline;}
+    .link-buttons{display:flex; flex-wrap:wrap; gap:8px; margin:6px 0 2px}
+    .btn.paper{background:#111; color:#fff; border:none}
+    .btn.code{background:#7c3aed; color:#fff; border:none}
+    .btn.disabled{background:#9ca3af; color:#fff; border:none; pointer-events:none; opacity:.85}
+    .section-intro{color:var(--muted); margin-top:-10px}
+    .paper + .paper{margin-top:6px}
+  </style>
 </head>
 
 <body>
-<a href="#main" class="skip-link">Skip to content</a>
 <header class="site-header">
   <div class="container">
     <div class="site-title">Elam Alcaraz</div>
     <div class="tagline">Economist</div>
     <nav aria-label="Primary">
-      <a href="/" aria-current="page">Home</a>
-      <a href="/research.html">Research</a>
+      <a href="/">Home</a>
+      <a href="/research.html" aria-current="page">Research</a>
       <a href="/cv.pdf">CV</a>
-      <a href="mailto:benjamin.rodriguez@banxico.org.mx">Contact</a>
+      <a href="mailto:youremail@example.com">Contact</a>
     </nav>
   </div>
 </header>
 
 <main id="main" class="container">
   <h1>Research</h1>
-  <p class="small">Replace placeholders with your own titles, coauthors, and links. Add <code class="inline">/cv.pdf</code> to the root for the CV link to work.</p>
 
+  <!-- ===== Working Papers ===== -->
   <section class="section">
     <h2>Working Papers</h2>
-    <div class="paper">
-      <div class="paper-title">Macro-Level Skill Mismatch in Mexican Labor Market</div>
-      <div class="paper-authors">B. Elam Rodríguez Alcaraz, Diana MacDonald, <em>Working Paper</em>, 2025.</div>
-      <div class="badges">
-        <span class="badge published">Draft coming soon</span>
-        <a class="badge code" href="https://github.com/belamrodriguezalcaraz.github.io">Code</a>
+
+    <!-- Paper 1 -->
+    <article class="paper" itemscope itemtype="https://schema.org/ScholarlyArticle">
+      <div class="paper-title" itemprop="name">Mexico&#39;s Labor Market through the Lens of the Beveridge Curve</div>
+      <div class="paper-authors coauthors">
+        <a href="https://irinapanovska.com/" target="_blank" rel="noopener">Panovska Irina</a>,
+        <a href="https://scholar.google.com/citations?user=FLJdZFAAAAAJ&hl=en" target="_blank" rel="noopener">Miroslava Quiroga-Trevino</a>,
+        B. Elam Rodríguez-Alcaraz,
+        <a href="https://econmentoring.org/mentees/barua-soni-prajyna/" target="_blank" rel="noopener">Prajyna Barua</a>,
+        <a href="https://scholar.google.com/citations?user=WquT6RwAAAAJ&hl=en" target="_blank" rel="noopener">Luis Fernando Colunga-Ramos</a>
+        (2025).
       </div>
-      <ul class="clean small">
-        <li><a href="#">PDF</a> · <a href="#">Journal</a> · <a href="#">BibTeX</a></li>
-      </ul>
-    </div>
-  </section>
 
-  <section class="section">
-    <h2>R&amp;R / Forthcoming</h2>
-    <div class="paper">
-      <div class="paper-title">P</div>
-      <div class="paper-authors">Elam Alcaraz, Coauthor (202X).</div>
-      <div class="badges"><span class="badge rr">R&amp;R</span></div>
-    </div>
-  </section>
-
-  <section class="section">
-    <h2>Working Papers</h2>
-    <div class="paper">
-      <div class="paper-title">Mexico's Labor Market through the Lens of the Beveridge Curve</div>
-      <div class="paper-authors">Panovska Irina, Miroslava Quiroga-Trevino, B. Elam Rodríguez-Alcaraz, Prajya Barua, Luis Fernando Colunga-Ramos, (2025).</div>
       <div class="badges">
         <span class="badge working">Working paper</span>
-        <a class="badge code" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5387586">Code</a>
       </div>
-      <ul class="clean small">
-        <li><a href="#">Draft</a> · <a href="#">Slides</a></li>
-      </ul>
-    </div>
-    <div class="paper">
-      <div class="paper-title"></div>
-      <div class="paper-authors">Elam Alcaraz (202X).</div>
+
+      <div class="link-buttons">
+        <a class="btn paper" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5387586" target="_blank" rel="noopener">Working paper</a>
+        <span class="btn disabled">Slides</span>
+      </div>
+
+      <p class="small" itemprop="description">
+        This paper constructs the first Beveridge Curves for Mexico and its regions using a newly compiled dataset on formal sector job vacancies.
+        Incorporating this novel vacancy dataset helps us define structural macroeconomic shocks and explore business cycle movements both at the
+        national and sectoral level. Focusing on the post-COVID-19 period, we document a sharp increase in labor market slack at the onset of the
+        pandemic, followed by a gradual tightening beginning in 2021, with a more rapid recovery in northern regions. By 2023, vacancy rates
+        declined without a corresponding rise in unemployment, suggesting a rebalancing of labor demand. We further introduce a new measure of
+        labor market slack based on the vacancies-to-unemployment (V/U) ratio for Mexico, which is used to explore national and regional Phillips
+        Curves. Finally, we estimate a Structural Bayesian VAR model. We show that the dynamics of the Beveridge Curve are primarily shaped by
+        labor-market shocks rather than goods-market shocks. Specifically, unemployment dynamics are mainly driven by labor supply and matching
+        efficiency shocks, while wage-bargaining shocks account for most of the variation in vacancies at the national level, with heterogeneity
+        across regions.
+      </p>
+    </article>
+
+    <!-- Paper 2 -->
+    <article class="paper" itemscope itemtype="https://schema.org/ScholarlyArticle">
+      <div class="paper-title" itemprop="name">Macro Level Skill Mismatch Index with Diana MacDonald</div>
+      <div class="paper-authors coauthors">
+        Elam Alcaraz, <a href="https://www.dianamacdonald.com/" target="_blank" rel="noopener">Diana MacDonald</a> (202X).
+      </div>
+
       <div class="badges">
         <span class="badge working">Working paper</span>
-        <a class="badge code" href="https://github.com/YOUR_GITHUB_USERNAME">Code</a>
       </div>
-    </div>
+
+      <div class="link-buttons">
+        <span class="btn disabled">draft cooming soon</span>
+        <span class="btn disabled">Slides</span>
+      </div>
+
+      <p class="small" itemprop="description">
+        This paper analyzes skill mismatches in the Mexican labor market using a Skill Mismatch Index (SMI) to quantify imbalances
+        between labor supply and demand. Results reveal a shortage of workers with primary education and an oversupply of highly educated workers,
+        particularly in government, entertainment, and retail trade. Regional disparities persist, with the south experiencing the highest mismatch.
+        Limited worker mobility exacerbates these imbalances, which tend to intensify as the economy grows. Addressing mismatches requires targeted
+        training, labor mobility incentives, and education reforms to improve workforce alignment and enhance labor market efficiency.
+      </p>
+    </article>
   </section>
 
+  <!-- ===== Research Assistant ===== -->
+  <section class="section">
+    <h2>Research Assistant</h2>
+
+    <!-- RA 1 -->
+    <article class="paper">
+      <div class="paper-title">WHEN IT RAINS, IT POURS: MEXICO&#39;S BANK NATIONALIZATION AND THE DEBT CRISIS OF 1982</div>
+      <div class="paper-authors coauthors">
+        Author: <a href="https://www.unige.ch/sciences-societe/dehes/en/department-members/juan-flores-zendejas-en" target="_blank" rel="noopener">Juan Flores Zendejas</a>
+      </div>
+      <div class="link-buttons">
+        <a class="btn paper" href="https://debtcon6.princeton.edu/sites/g/files/toruqf3611/files/documents/flores_zendejas.pdf" target="_blank" rel="noopener">Draft</a>
+      </div>
+      <p class="small">
+        How are expropriations related to governments&#39; debt defaults? The literature has shown that expropriation episodes and debt defaults have
+        rarely coincided, suggesting that each event resulted from a different set of factors. The aim of this article is twofold. First, I analyze
+        default-expropriation relationships in the years previous to the debt crisis of 1982. I show that while default and expropriation episodes
+        did not always coincide, countries that expropriated at least once during the period were also those that defaulted more often. I observe that
+        countries that expropriated had worse macroeconomic indicators than countries that did not. Second, I focus on the case of Mexico, when its
+        announcement of a debt moratorium in August 1982 was followed, less than one month later, by the nationalization of its banking system. Both
+        events were outcomes of an acute economic crisis. The nationalization announcement aggravated the crisis, because an agreement with the IMF
+        seemed increasingly uncertain. I provide evidence from the largely overlooked bond market (on which the government never defaulted) that shows
+        that investors reacted negatively to the bank nationalization. Finally, I present original, published, and unpublished primary sources to
+        demonstrate that commercial banks, as well as international organizations, expressed misgivings about the banks&#39; nationalization. This fact
+        may have hindered the country&#39;s economic recovery through the deterioration of public confidence and a decline in foreign investment.
+      </p>
+    </article>
+
+    <!-- RA 2 -->
+    <article class="paper">
+      <div class="paper-title">The Effect of Immigration Enforcement Abroad on Immigrants&#39; Home-Country Firms</div>
+      <div class="paper-authors coauthors">
+        By <a href="https://sites.google.com/view/danielosunagomez" target="_blank" rel="noopener">Daniel Osuna Gómez</a> and
+        <a href="https://www.cornerstone.com/professionals/eduardo-medina-cortina/" target="_blank" rel="noopener">Eduardo Medina Cortina</a>
+      </div>
+      <div class="link-buttons">
+        <a class="btn paper" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4620336" target="_blank" rel="noopener">Draft</a>
+      </div>
+      <p class="small">
+        We use the largest modern US deportation program to investigate the effect of deportation shocks on establishments in the communities of
+        origin of migrants. We link these deportations to Mexican municipalities by using transnational data on the undocumented migrant network
+        and then merge them with rich establishment panel data, which includes formal and informal firms. Mexican regions experiencing larger
+        deportation shocks observe an increase in their establishments’ size, revenue, and exports. We provide suggestive evidence that these changes
+        are driven by increases in consumer demand, the transference of human and financial capital, and reductions in labor costs.
+      </p>
+    </article>
+
+    <!-- RA 3 -->
+    <article class="paper">
+      <div class="paper-title">The Labor Market Consequences of North-to-South Migration</div>
+      <div class="paper-authors coauthors">
+        With <a href="https://sites.google.com/view/danielosunagomez" target="_blank" rel="noopener">Daniel Osuna-Gómez</a>
+      </div>
+      <div class="link-buttons">
+        <a class="btn paper" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5009623" target="_blank" rel="noopener">Draft</a>
+      </div>
+      <p class="small">
+        I investigate the impact of the arrival of individuals born in developed countries (North-to-South migration) on natives&#39; wages. Using
+        Mexican Population Census data, I first characterize migration to Mexico and show that many foreign-born individuals from developed countries
+        work, contrary to stereotypes. Then, I use an instrumental-variables approach relying on enclaves and find that increasing the number of
+        foreign-born individuals from developed countries decreases natives&#39; wages. I provide evidence suggesting that this is driven by the creation
+        of low-paying jobs in industries relying on local consumption, and the substitution of natives for some white-collar jobs.
+      </p>
+    </article>
+  </section>
+
+  <!-- ===== Work in Progress ===== -->
   <section class="section">
     <h2>Work in Progress</h2>
     <ul class="clean">
-      <li>Project 1 — one-line description.</li>
-      <li>Project 2 — one-line description.</li>
+      <li>The impact of Minimum Wages on Exporting Firms, with <a href="https://sites.google.com/view/danielosunagomez" target="_blank" rel="noopener">Daniel Osuna-Gómez</a>.</li>
+      <li>Demographic Aging and its Impact on Growth: The Case of Mexico, con <a href="https://www.dianamacdonald.com/" target="_blank" rel="noopener">Diana MacDonald</a>.</li>
     </ul>
   </section>
 
+  <!-- ===== Data & Code ===== -->
   <section class="section">
     <h2>Data &amp; Code</h2>
     <ul class="clean">
-      <li><strong>IMSS employment decomposition</strong> — replication package. <a href="https://github.com/YOUR_GITHUB_USERNAME">GitHub</a></li>
-      <li><strong>ENOE mismatch measures</strong> — scripts and documentation. <a href="https://github.com/YOUR_GITHUB_USERNAME">GitHub</a></li>
+      <li><strong>Macro Level Skill Mismatch Index In Mexican Labor Markets: Replication package</strong> — [Link vacío]</li>
+      <li><strong>Mexican Labor Markets Using ENOE</strong> — [Link vacío]</li>
+      <li><strong>Mexican Labor Markets Using IMSS</strong> — [Link vacío]</li>
+      <li><strong>Mexican Census</strong> — [Link vacío]</li>
+      <li><strong>American Labor Markets</strong> — [Link vacío]</li>
     </ul>
   </section>
 </main>
 
-<script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "ScholarlyArticle", "name": "Minimum Wages, Exporters, and Formal Employment", "author": [{"@type": "Person", "name": "Elam Alcaraz"}], "url": "https://YOUR_GITHUB_USERNAME.github.io/research.html"}}]}
-</script>
-
-<footer>
-  <div class="container">
-    <div>© 2025 Elam Alcaraz. Built with plain HTML/CSS. <span class="small">Last updated 2025-09-05.</span></div>
-  </div>
-</footer>
-<script>
-for (const a of document.querySelectorAll('a[href^="http"]')) {
-  if(!a.href.includes(window.location.host)) a.setAttribute('target','_blank');
-}
-</script>
 </body>
 </html>
+
