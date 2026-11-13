@@ -85,6 +85,9 @@ a:hover { text-decoration: underline; text-underline-offset: .17em; }
 .site-main p { margin: 0 0 1rem; }
 .about { padding-top: .2rem; }
 .site-footer { margin-top: 2.45rem; color: #716c67; font: .65rem/1.6 var(--mono); letter-spacing: .04em; }
+.site-footer .site-disclaimer { margin: 0 0 .75rem; padding-top: .75rem; border-top: 1px solid var(--line); color: var(--muted); font: .88rem/1.55 var(--serif); letter-spacing: normal; }
+.policy-box-title { margin: 0; font: 600 1.18rem/1.28 var(--serif); color: var(--ink); }
+.site-main p.policy-box-source { margin: .24rem 0 0; }
 
 .section { margin: 1.8rem 0; scroll-margin-block-start: 1rem; }
 .section h2 { scroll-margin-block-start: 1rem; }
